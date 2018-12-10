@@ -1,0 +1,1241 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+button {
+    color: indianred;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: "Exo 2", Arial, sans-serif;
+    color: #000000;
+}
+.container {
+    max-width: 1200px;
+}
+a {
+    color: #999999;
+}
+.h1, h1 {
+    font-family: "Exo 2- Extra Light", Arial, sans-serif;
+}
+.row{
+    width: auto;
+}
+/*NAV FIRST***********************************************************/
+
+.first{
+      height:25px;
+  }
+.second{
+    height:90px;
+}
+/*SHADDOW***********************************************************/
+.shadow {
+    box-shadow: 0 0 3rem rgba(0,0,0,.15)!important;
+}
+
+.mb-5, .my-5 {
+    margin-bottom:0!important;
+}
+/*CONTENT***********************************************************/
+.page-title {
+    border-bottom: 1px solid  #cccccc;
+    padding-bottom: 10px;
+}
+.page-title-name{
+    border-bottom: 4px solid #ee2e30;
+    padding-bottom: 9px;
+}
+
+/************************************** header **************************/
+
+.header {
+    background-color: white;
+}
+
+/********************* menu 1 of header **************/
+.topgray-line {
+    background-color: #ededed;
+}
+.toptop-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toptop-row img {
+    object-fit: contain;
+}
+.t595 {
+    padding-right: 30px;
+    padding-left: 4px;
+}
+
+/*.fas {*/
+    /*font-size: 200%*/
+/*}*/
+
+/*.nav-top  {*/
+    /*display: flex;*/
+    /*align-items: center;*/
+/*не работает так вертикальное центрирование для menu-top*/
+
+/*}*/
+
+.menu-top {
+    list-style: none;
+    display: flex;
+    padding:0;
+    justify-content: space-around;
+    /*align-items: center;*/
+    position: relative;
+    top: 5px;
+}
+.nav-cont-1 {
+    display: flex;
+}
+.nav-cont-2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.lang-divider {
+    display: flex;
+    align-items: center;
+}
+.account:before {
+    content: '|';
+    padding: 0 5px;
+    color: #ccc;
+}
+.account:after {
+    content: '|';
+    padding: 0 5px;
+    color: #ccc;
+}
+.divider:after {
+    content: '|';
+    padding: 0 6px;
+    color: #ccc;
+}
+.lang{
+    font-size: 12px;
+    text-transform: uppercase;
+    /* Text style for "Ua" */
+    color: #999999;
+}
+/*.lang:active*/
+.lang-active {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.account {
+    padding: 0 10px;
+
+}
+/********************* menu 2 of header **************/
+.nav-2 {
+    margin-top: 33px;
+}
+.service-items {
+    display: flex;
+    justify-content: space-around;
+}
+.serv-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    bottom: 15px;
+}
+.serv-img{
+    margin: 7px 5px 0 0 ;
+}
+.serv-text{
+    color: #000000;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 12px;
+    font-family: "Exo 2", Arial, sans-serif;
+    width: 80px;
+    position: relative;
+    top: 4px;
+}
+.serv-text-3 {
+    width: 110px!important;
+}
+    /*NAV 3
+    ******************************************
+     */
+.nav-all {
+    background-color: #ffffff;
+    border-bottom: 5px solid #000000;
+}
+.navbar{
+    margin-bottom: 0;
+    padding: 0;
+}
+.navbar-nav{
+    width: 100%;
+}
+.navbar-nav a{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "П, ОДБОР А" */
+    letter-spacing: 0.7px;
+}
+.top-search input[type=text] {
+    padding: 6px 0 6px 10px;
+    margin-top: 8px;
+    width: 270px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    color: #666666;
+    font-family: "Exo 2- Thin", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "П, оиск АВ" */
+    letter-spacing: 0.13px;
+}
+.top-search button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 0;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 35px;
+    background-color: #ee2e30;
+}
+.top-search .search-container button:hover {
+    background: #ccc;
+}
+.fa {
+    color:#fff;
+}
+.logo-sm img{
+    width:90%;
+}
+
+.search-container {
+    text-align:right;
+}
+.search-container span {
+    color: #287ab8;
+    font-family: "Exo 2", sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    /* Text style for "BMW X5" */
+    letter-spacing: 0.11px;
+    border-bottom: 1px dotted #287ab8;
+    width:auto;
+}
+.sell-auto {
+    display: block;
+    background-color: #ee2e30;
+
+    /*display: flex;*/
+    /*align-items: flex-end;*/
+    /*height: 40px!important;*/
+    /*opacity: 1!important;*/
+    /*padding-top: 30px;*/
+    /*padding-left: 2rem;*/
+}
+
+.last {
+    display: flex;
+}
+
+.plus-sell {
+    display:block;
+    background-color: #ee2e30;
+    object-fit: contain;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+
+.last a {
+    color: #ffffff!important;
+    font-weight: 300;
+}
+.nav-link
+{
+    padding: 10px 40px;
+    line-height: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    /*padding-right: 2rem;*/
+    padding-left: 2rem;
+}
+
+.menu-plus-icon {
+    background-image: url("../img/icons/plus.png") ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 40px!important;
+    width: 40px!important;
+
+
+}
+
+
+    /*BREADCRUMB***********************************************************/
+
+.breadcrumb {
+    font-family: "Exo 2", Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    padding-bottom: 0;
+}
+.breadcrumb-item.active {
+    color:#333333;;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    /*content: ">";*/
+    font-family: 'fontAwesome', sans-serif;
+    content: "\f105" ; 
+
+}
+/*count-result  ***********************************************************/
+.search-auto{
+   margin: 15px 0;
+}
+.count-result {
+    font-weight: 700;
+}
+.show-all-result {
+    text-align: right;
+}
+.show-all-result a {
+    color: #ee2e30;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px dotted #ee2e30;
+}
+/*SECTION 1:  AUTO 1  ***********************************************************/
+
+.auto-1 {
+    /*width: 50%;*/
+    /*float: left;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.image-auto-1, .image-auto-2, .image-auto-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.image-auto-1 {
+    height: 399px;
+
+    /*width:auto;*/
+}
+.auto-22 {
+    display: flex;
+    flex-direction: column;
+
+    /*width: 372px;*/
+}
+
+.image-auto-1 img {
+    /*height: 237px;*/
+    /*width: 388px;*/
+    width: 100%;
+}
+/*SECTION 1:  AUTO 2  ***********************************************************/
+.auto-2 {
+    background: #fff;
+    /*width: 50%;*/
+    /*float: left;*/
+}
+.image-auto-2 {
+    /*width: 375px;*/
+    height: 145px;
+}
+.image-auto-2 img {
+    width: auto;
+    height: 145px;
+    
+}
+/*SECTION 1:  AUTO 5  ***********************************************************/
+
+.auto-5 {
+    width:auto;
+}
+.image-auto-5 {
+    /*width: 375px;*/
+    max-width:100%;
+    max-height:100%;
+}
+.image-auto-5 img {
+    max-width:100%;
+    max-height:100%;
+}
+
+/***********************************************************/
+.xs-autos{
+}
+/* The ribbons */
+.ribbon-box{
+    position: absolute;
+    top:5px;
+    left:20px;
+}
+.ribbon {
+    position: absolute;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+
+}
+
+.ribbon span {
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 100px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(#999999 0%, #999999 100%);
+    position: absolute;
+    top: 19px; left: -21px;
+}
+
+.red-rib span  {
+    background: #ee2e30;
+}
+/* Colors */
+
+/*.corner-ribbon.white{background: #f0f0f0; color: #555;}*/
+/*.corner-ribbon.black{background: #333;}*/
+/*.corner-ribbon.grey{background: #999;}*/
+/*.corner-ribbon.blue{background: #39d;}*/
+/*.corner-ribbon.green{background: #2c7;}*/
+/*.corner-ribbon.turquoise{background: #1b9;}*/
+/*.corner-ribbon.purple{background: #95b;}*/
+/*.corner-ribbon.red{background: #e43;}*/
+/*.corner-ribbon.orange{background: #e82;}*/
+/*.corner-ribbon.yellow{background: #ec0;}*/
+
+
+
+/************************SECTION 1:  AUTO for xs  ************************************/
+@media (max-width: 480px) {
+    /*overflow: scroll;*/
+    .main-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-auto-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        height: 145px;
+
+
+    }
+
+    .image-auto-1 img {
+        object-fit: contain;
+        height: 145px;
+        display: block;
+    }
+
+    .price h1 {
+        font-size: 1.3rem!important;
+
+
+    }
+
+    .price h2 {
+        font-size: 16px!important;
+
+
+    }
+
+
+    .auto-1, .auto-2 {
+        width: 100%;
+    }
+    .image-auto-5 img {
+
+        max-height: 190px;
+    }
+    .xs-autos{
+        display: flex;
+        justify-content: center;
+    }
+
+    .auto-1 {
+        flex-direction: column;
+    }
+    .first-rib {
+        z-index: 1;
+        left: -5px;
+        top: -5px;
+
+    }
+    /*xs*/
+    .second-rib {
+        z-index: 2;
+        left: -5px;
+        top: 250px;
+    }
+    .third-rib {
+        z-index: 3;
+        left: -5px;
+        top: 317px!important;
+    }
+    /*.fourth-rib {*/
+        /*z-index: 4;*/
+        /*left: -5px;*/
+        /*top: 318px;*/
+    /*}*/
+    .rev-wrapper {
+    min-height: 420px;
+        height: 96%;
+        /*padding-bottom: 30px;*/
+        padding: 3px;
+        margin-left: 0!important;
+    }
+    .choose-bmw-x5 {
+
+        padding: 20px 0 0 20px;
+        /* width: auto; */
+    }
+    footer .container {
+        background-color: #ffffff;
+        background-image: url("../img/ellipse-3.png") ;
+        background-repeat:  no-repeat;
+        background-position: 10px 40px;
+
+    }
+
+
+}
+    /*.main-carousel {*/
+        /*padding-left: 0;*/
+    /*}*/
+    /*.customers-reviews {*/
+        /*padding-left: 0;*/
+    /*}*/
+    /*.tab-pane  {*/
+
+        /*overflow: scroll;*/
+    /*}*/
+
+/*************************TABS SCREENS*************************************/
+@media only screen and (max-width: 768px) {
+    .image-auto-1 {
+        height: 145px!important;
+
+    }
+    .image-auto-1 IMG {
+        height: 145px;
+        object-fit: contain;
+    }
+    .first-rib {
+        z-index: 1;
+        left: -5px;
+        top: -5px;
+    }
+    /*small*/
+    .second-rib {
+        z-index: 2;
+        left: -5px;
+        top: 250px;
+    }
+    .third-rib {
+        z-index: 3;
+        left: -5px;
+        top: 354px;
+    }
+    .fourth-rib {
+        z-index: 4;
+        left: -5px;
+        top: -5px;
+    }
+    .h-small {
+        display:none!important;
+
+    }
+    .bmw-x5-textblock {
+        /*width: 100%;*/
+        /*min-width: 340px;*/
+        /*max-width: 380px;*/
+
+        background-color: #ffffff;
+        /*height: 100%;*/
+        padding : 15px ;
+        margin: 0 0 0 0 ;
+    }
+    .tab-content{
+        /*overflow: hidden;*/
+        overflow: scroll;
+    }
+    .logo  {
+        min-height: 80px;
+    }
+    .top-search  {
+        width: 100%;
+    }
+    .top-search a, .top-search input[type=text], .top-search button {
+        float: none;
+        display: block;
+        text-align: left;
+        margin: 0;
+        width: 100%;
+    }
+    .top-search input[type=text] {
+        border: 1px solid #ccc;
+    }
+    .top-search button {
+
+        width: 40px;
+        height: 35px;
+    }
+    footer .container {
+        background-color: #ffffff;
+        background-image: url("../img/ellipse-3.png") ;
+        background-repeat:  no-repeat;
+        background-position: 5px 5px;
+
+    }
+    footer {
+        max-width: 720px!important;
+    }
+
+}
+
+
+/*************************LARGE SCREENS*************************************/
+@media only screen and (min-width: 769px) {
+    .bmw-x5-textblock {
+        background-color: #ffffff;
+        height: 100%;
+        padding : 50px 20px 17px 20px ;
+        margin-left: 15px;
+
+    }
+
+    /*.short-div {*/
+        /*height: 50%;*/
+    /*}*/
+    .description-button {
+    width:272px!important;
+    }
+    .bmw-x5-textblock {
+
+        max-width: 580px;
+    }
+    .h-big {
+        display: none;
+
+    }
+    .navbar-nav{
+        width: 100%;
+        min-width: 1170px;
+    }
+    .auto-0 {
+        display: flex;
+        padding-right: 0;
+
+    }
+    .auto-222 {
+        padding-left: 0;
+    }
+    .auto-1, .auto-2 {
+        width: 100%;
+    }
+
+    .xs-autos{
+        display: flex;
+        justify-content: center;
+    }
+    .auto-1 {
+        flex-direction: column;
+    }
+    .news-tabs {
+        margin-right: 12px;
+    }
+    .first-rib {
+        z-index: 1;
+        left: -5px;
+        top: -5px;
+    }
+    /*lg*/
+    .second-rib {
+        z-index: 2;
+        left: -20px;
+        top: 250px;
+    }
+    .third-rib {
+        z-index: 3;
+        left: -5px;
+        top: 433px;
+    }
+    .fourth-rib {
+        z-index: 4;
+        left: -5px;
+        top: -5px;
+    }
+    .logo-bot {
+        padding: 10px 0 0 150px;
+    }
+    .both-navs {
+        padding: 10px 0 0 0;
+    }
+    .footer-nav{
+    padding: 0 0 0 40px;
+        min-width:150px;
+    }
+    .name{
+        padding: 0 0 0 80px;
+
+    }
+    footer .container {
+        background-color: #ffffff;
+        background-image: url("../img/ellipse-3.png") ;
+        background-repeat:  no-repeat;
+        background-position: 100px 1px;
+
+    }
+}
+
+
+/*SECTION 1: text under AUTOS ***********************************************************/
+.auto-bg{
+background-color: #f4f4f4;
+width:100%;
+}
+.text-auto-1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.p-31 {
+    padding: 13px;
+}
+
+.about-auto h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.auto-22 h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.about-auto>.text-year {
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    padding: 1px 16px 2px 12px;
+    margin-right: 15px;
+}
+
+.about-auto>.km-age {
+    font-size: 15px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.price {
+    border-left: 1px solid #cccccc;
+    padding-left: 19px;
+    height: 68px;
+}
+
+
+.price h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: "Exo 2", sans-serif;
+}
+
+.price h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #cc3333;
+    font-family: "Exo 2", sans-serif;
+}
+
+.dol-1 {
+    font-size: 15px;
+    font-family: "Exo 2", sans-serif;
+    margin-top: 3px;
+}
+.dol-2 {
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.in-month {
+    font-size: 15px;
+    font-weight: 500;
+}
+.stars{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 5px;
+    display: flex;
+}
+.rev-wrapper {
+    background-color: #fff;
+    height: 96%;
+    /*padding-bottom: 30px;*/
+    padding: 5px;
+    margin-left: 17px;
+    margin-right: 15px;
+}
+.carousel-top{
+    width:150px;
+    display:flex;
+   flex-direction: column;
+
+    align-items: center;
+    margin: 0 auto;
+    text-align: center!important;
+}
+
+.carous-top-1{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 5px;
+    display: flex;
+
+}
+.star-desc{
+    color: #000000;
+    font-size: 12px;
+
+    padding-top: 5px;
+    display: flex;
+}
+
+.carousel-item> span {
+    display: block;
+    text-align: center!important;
+
+}
+/*.carousel-item .stars {*/
+    /*display: inline-block;*/
+    /*align-items: center;*/
+/*}*/
+
+.carousel-text {
+    color: #000000;
+    font-family: "Exo 2", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.carousel-control-next, .carousel-control-prev {
+    align-items: flex-start ;
+    height: 40px!important;
+    opacity: 1!important;
+    padding-top: 30px;
+}
+.carousel-control-next-icon {
+    background-image: url("../img/icons/next.png");
+    height: 40px!important;
+    opacity: 1!important;
+    padding-top: 30px;
+}
+.carousel-control-prev-icon {
+    background-image: url("../img/icons/prev.png");
+    height: 40px!important;
+    opacity: 1!important;
+    }
+
+
+.star {
+    background-image: url("../img/icons/favorite.png");
+    height: 20px;
+    width: 20px;
+
+}
+.star-empty {
+    background-image: url("../img/icons/favorite-1.png");
+    height: 20px;
+    width: 20px;
+}
+
+.carousel-bottom-addreview {
+
+    display: flex;
+    justify-content: center;
+
+}
+/*+++++++++++++++++++++++++ "FORM ++++++++++++++++++++++++++++*/
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    justify-content: space-around;
+    width: 100%;
+    padding:35px 40px 50px ;
+}
+
+.dropdown h2 {
+    text-align: center;
+    color: #ff3333;
+    font-family: "Exo 2", sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    text-transform: uppercase;
+    /* Text style for "п, омогите" */
+    letter-spacing: 1px;
+
+}
+
+.searching-fields-default {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn-default {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.dropdown-menu.show {
+    width: 290px;
+}
+
+.wrap-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+
+.eclipse-11 {
+    display: block;
+    position: absolute;
+    /*background-image: linear-gradient(to top, #d7d7d7 0%, #ffffff 100%);*/
+    /*opacity: 0.4;*/
+}
+
+.eclipse-12 {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+/*.eclipse-13 {*/
+
+
+    /*background-image: url("../img/ellipse-3.png") ;*/
+    /*z-index: 289;*/
+/*}*/
+
+
+
+/*.bubble-wrap {*/
+    /*width: 1220px;*/
+
+/*}*/
+
+/*.testcube {*/
+    /*width: 50px;*/
+    /*height: 30px;*/
+    /*background-color: #cc3333;*/
+/*}*/
+
+.getauto-button {
+    display: block;
+    width: 100%;
+    height: 43px;
+    background-color: #ee2e30;
+    color: #ffffff;
+    font-family: "Exo 2", sans-serif;
+    font-weight:bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    /* Text style for "п, одберит" */
+    letter-spacing: 0.65px;
+    border-width: 0;
+    position: relative;
+    margin-top: 10px;
+}
+.btn {
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    border-radius: 0;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+.glyphicon {
+    float: right;
+    /*color: black;*/
+}
+.dropdown-menu{
+    width: 100%;
+}
+/*+++++++++++++++++++++++++ блок - новости - отзывы ++++++++++++++++++++++++++++*/
+/*.text-about {*/
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
+
+/*}*/
+
+.news-tabs{
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 26px;
+    background-color: #ffffff;
+    /* Text style for "BMW" */
+}
+.nav-tabs{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+.tab-content .active{
+    border-bottom: none!important;
+}
+.toggle-btn {
+    font-family: "Exo 2", sans-serif;
+    text-transform: uppercase;
+    color: #666666!important;
+    font-weight: bold!important;
+    font-size: 14px;
+    width:25%;
+    padding: 7px 0;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #cccccc;
+}
+.act {
+     color: #ee2e30;
+     border-top: 1px solid #ff9999;
+     border-right: 1px solid #ff9999;
+     border-bottom: white;
+     border-left: 1px solid #ff9999;
+ }
+.act a {
+    color: #ee2e30;
+}
+.tab-content{
+    padding: 20px 30px 10px 30px;
+   max-height:  420px;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.tab-content .read-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0; padding: 30px 0;
+    /* "transparent" only works here because == rgba(0,0,0,0) */
+}
+#home {
+
+    font-size: 16px!important;
+    font-weight: 300;
+    line-height: 26px;
+}
+.bold-font-bmw {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+}
+
+/*+++++++++++++++++++++++++ блок - новости - отзывы ++++++++++++++++++++++++++++*/
+.news-reviews {
+    margin-top: 25px;
+}
+
+.news1 {
+    display:flex;
+    justify-content: space-between;
+}
+
+.text-in-select2{
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+/*.news-tabs{*/
+    /*height: 470px;*/
+/*}*/
+
+.customers-reviews {
+    color: #333333;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    /*padding-right bootstrap pr-0*/
+}
+/* ПОЧЕМУ НЕ РАБОТАЮТ ШРИФТЫ ????????????????????????????????????????????????
+font-family: "Exo 2- Extra Light";
+ */
+/*+++++++++++++++++++++++++ блок - bmw-x5 ++++++++++++++++++++++++++++*/
+/* "выберите год" */
+.choose-bmw-x5 {
+    margin: 0 auto;
+    width: auto;
+}
+
+.choose-bmw-x5-year {
+    font-family: "Exo 2", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+.but-year {
+    border: 1px solid #cccccc;
+    font-family: "Exo 2", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 2px 10px 2px  10px;
+    margin-right: 10px;
+}
+/*.but-year:first-child  {*/
+    /*margin-left: 10px;*/
+    /*background-color: yellow;*/
+/*}*/
+
+.choose-bmw-x5 .active-year {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+}
+/*блок bmw-x5*/
+.bmw-x5 {
+    margin-top: 20px;
+}
+
+.description-box {
+    border: none!important;
+}
+
+.description-series {
+    font-family: "Exo 2", sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 5px 0 15px 0;
+    padding-left: 15px;
+}
+
+.description-text {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 26px;
+    /*line-height: 26px;*/
+    padding: 10px 15px 3px 10px;
+}
+.description-button {
+
+    height: 43px;
+    margin-top: 25px;
+}
+.grad-bmw-x5 {
+    margin-top: 20px;
+}
+.foot {
+    /*background-color: #ffffff;*/
+    min-height: 150px;
+    padding: 20px 0;
+    /*padding-top: 30px;*/
+    margin: 12px 0 0 0!important;
+}
+.foot-2 {
+    /*background-color: #ffffff;*/
+    padding: 5px 0;
+}
+.address {
+    color: #000000;
+    font-family: "Exo 2", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.footer-nav {
+    color: #666666;
+    font-family: "Exo 2", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 16px;
+    text-transform: uppercase;
+    border: none;
+
+}
+.footer-nav ul {
+    list-style: none;
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+.dev{
+    font-size: 10px;
+}
+.overlay-item{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.overlay {
+    background-image: linear-gradient(to top, #f5f5f5 0%, rgba(245, 245, 245, 0.27) 40%, rgba(245, 245, 245, 0) 70%);
+    width: 100%;
+    height: 100%;
+    margin: 0 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.logo-bot img{
+    padding-right: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
