@@ -1,3 +1,3 @@
-Вёрстка макета по шаблону:
+Р’С‹РїРѕР»РЅРµРЅР° РІС‘СЂСЃС‚РєР° РјР°РєРµС‚Р° РїРѕ С€Р°Р±Р»РѕРЅСѓ:
 
 https://freebiesbug.com/psd-freebies/mogo-free-one-page-psd-template/
