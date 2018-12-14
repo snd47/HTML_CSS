@@ -1,0 +1,266 @@
+@media only screen and (min-width: 768px){
+
+body {
+	background-image: url("../img/dust_scratches.png");
+}
+
+.cont {
+	margin: 0 auto;
+	width: 1024px;
+	height: 100%;
+	font-family: Arial;
+
+
+}
+
+
+
+header {
+	width: 1020px;
+	position: relative;	/*теперь можем сдвинуть */
+	left: 4px;
+	height: auto;
+	background-color: white;
+
+	border: 2px solid silver;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*.logo {
+	
+
+    width: 120px;
+	height: auto; */
+ 
+	/*object-fit: contain;*/
+
+.toplogo {
+    width: 150px;
+	height: 150px;
+	object-fit: contain;
+	display: block;
+
+}
+
+/*.topmenu {
+
+	float: left;
+	background: lightcyan;
+	width: 620px;
+	height: 120px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+
+}
+*/
+.menu {
+
+	display: flex;
+	flex-direction: row;
+	list-style: none; /* Убрали точки из списка */
+	margin-top: 60px;
+
+}
+.field {
+	width:120px;
+	margin-right:20px;
+}
+/*.menu-li {
+	display: inline; 
+}*/
+.menu-item {
+	
+	padding-right: 20px;
+	text-decoration: none; /* Убрали подчеркнутый текст ссылок*/
+	font-size: 18px;
+	font-family: arial;
+	color: #ff52c9;
+}
+	section {
+
+		margin: 5px;
+		width: 100%;
+		min-height: 400px;
+
+	}
+	.banner {
+		text-align: justify;
+		position: absolute;
+		margin: -170px 0 0 30px ;
+		width:900px;
+		color: mistyrose;
+
+	}
+
+	.banner-image{
+		width: 1024px;
+
+	}
+ .column1 {
+	 width:40%;
+	 float: left;
+	 padding: 0 10% 0 0;
+ }
+	.column2 {
+		width:50%;
+		float: left;
+	}
+/* Стили для странице товаров */
+.shop {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.box {
+	flex: 1;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.product{
+	width: 90%;
+	padding: 0 5%;
+}
+
+.text_products {
+	padding: 5%;
+	text-align: center;
+	font-size: 100%;
+	display: block;
+}
+
+.item {
+	color: #ee76ff;
+	font-weight: bold;
+}
+
+button {
+	padding: 5px 10px;
+	background-color: brown;
+	color: white;
+	border-radius: 5px;
+	border-color: crimson;
+}
+
+	footer {
+	   padding: 20px 5px 20px 0;
+		text-align: right;
+		font-size: 20px;
+		display: block;
+		background-color: black;
+		color: white;
+		width: 1020px;
+		position: relative;	/*теперь можем сдвинуть */
+		left: 4px;
+	}
+
+}
+
+@media (max-width: 767px) and (min-width: 400px){
+
+body {
+	margin: 0 auto;
+	width:100%;
+	hight: 100%;
+}
+
+header {
+	width: 100%;
+}
+.logo {
+	
+    width: 120px;
+	
+	position: absolute;
+	left:50%;
+	margin: 0 -60px;
+	
+}
+
+.img1 {  
+    width: 120px;
+}
+nav {
+
+	float: left;
+	background: lightcyan;
+	width: 100%;
+	height: 120px;
+	margin: 100px 0 0 0;
+	
+	
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	list-style: none; /* Убрали точки из списка */
+	
+}
+/*.menu-li {
+	display: inline; 
+}*/
+.menu-item {
+	
+	padding-right: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: arial;
+	color: green;
+}
+}
+@media only screen and (max-width: 399px){
+
+body {
+	margin: 0 auto;
+	width:100%;
+	hight: 100%;	
+}
+
+header {
+	width: 100%;
+}
+.logo {
+	
+    width: 120px;
+	
+	position: absolute;
+	left:50%;
+	margin: 0 -60px;
+	
+}
+
+.img1 {  
+    width: 120px;
+}
+nav {
+
+	float: left;
+	background: lightcyan;
+	width: 100%;
+	height: 120px;
+	margin: 100px 0 0 0;
+	
+	
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	list-style: none; /* Убрали точки из списка */
+	
+}
+/*.menu-li {
+	display: inline; 
+}*/
+.menu-item {
+	
+	padding-right: 20px;
+	text-decoration: none;
+	font-size: 9px;
+	font-family: arial;
+	color: blue;
+}
+}
+

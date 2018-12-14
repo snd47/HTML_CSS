@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    flex: 1;
+}
+
+
+.text_products {
+    text-align: center;
+}

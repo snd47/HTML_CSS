@@ -1,0 +1,12 @@
+body {
+    margin:0 auto;
+    margin-top:30px;
+    width:480px;
+    height:225px;
+    border: 1px solid lightgray;
+    padding:5px;
+}
+
+header{
+    width: 100em;
+}
