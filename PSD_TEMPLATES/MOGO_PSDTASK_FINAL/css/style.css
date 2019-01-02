@@ -216,6 +216,9 @@ header {
     width: 382px;
     height: 252px;
 }
+.sprteam {
+    max-width: 100px;
+}
 
 /*Overlay-----------------------------------------------------*/
 .img-overlay img {
@@ -589,7 +592,7 @@ header {
     width:100%;
 }
 .works-img img{
-    flex:auto;
+  flex:auto;
 }
 .w-img1 {
     width: 50%;
