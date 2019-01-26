@@ -1,0 +1,156 @@
+
+@font-face {
+    font-family: Open Sans; /* Имя шрифта */
+    src: url(../fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Open Sans; /* Имя шрифта */
+    src: url(../fonts/OpenSans-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+body {
+    color: #000000;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1534px;
+}
+.center {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 960px;
+}
+.bg-dark {
+    background-color: #0a0e34;
+}
+h1 {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 31.32px;
+    text-transform: uppercase;
+    letter-spacing: 4.96px;
+}
+h2 {
+    color: #e7e7e7;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+h3 {
+    color: #c1c1c1;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+h4 {
+    /* Style for "Show every" */
+    color: #a496ca;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.49px;
+    text-transform: uppercase;
+}
+/************************************HEADER*************************************/
+header {
+   min-height: 960px;
+}
+.header {
+    color:#fff;
+    position: relative;
+    z-index:1;
+    overflow:hidden;
+    min-height: 960px;
+}
+
+.header:before{
+    z-index:-1;
+    position:absolute;
+    left:0;
+    top:0;
+    content: url("../images/football_1920.jpg");
+    opacity:0.1;
+    min-height: 960px;
+}
+.logo{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.title h1:nth-child(2n) {
+    text-align: right;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 110px;
+}
+.buttons a:first-child:before {
+    content: url("../images/Apple_logo_black.png");
+    margin-left: 28px;
+}
+.buttons a:nth-child(2n):before {
+    content: url("../images/google-play.png");
+    margin-left: 35px;
+}
+.button:first-child span {
+    margin-left: 110px;
+}
+.button:nth-child(2n) span {
+    margin-left: 124px;
+}
+a.button {
+    color: #ffffff;
+    border-radius: 40px;
+    display: flex ;
+    font-size: 14px ;
+    font-weight: 400;
+    position: relative ;
+    text-decoration: none ;
+    width: 311px ;
+    height: 77px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    background-color: #5e42b0;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+a.button:before {
+    border-radius: 3px 3px 3px 3px ;
+    color: #FFFFFF ;
+    font-family: sans-serif ;
+    font-size: 15px ;
+    left: 9px ;
+    margin-top: -30px ;
+    padding: 3px 3px 2px 3px ;
+    position: absolute ;
+    text-align: center ;
+    top: 50% ;
+    line-height: 15px ;
+}
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 100%;
+    }
+    h1 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 31.32px;
+        text-transform: uppercase;
+        letter-spacing: 4.96px;
+    }
+.buttons {
+    flex-direction: column;
+    width:90%;
+    }
+}
