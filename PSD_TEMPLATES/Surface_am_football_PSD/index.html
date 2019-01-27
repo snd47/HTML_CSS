@@ -6,29 +6,44 @@
     <title>Surface</title>
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
 </head>
-<body>
-    <header class="bg-dark">
-        <div class="header">
-       <div class="wrapper center">
-        <div class="logo">
-            <img src="./images/surface_logo_text.png">
+<body class="">
+
+    <header class="bg-dark ">
+        <div class="header flexbox column jc-center ai-center fl-wrap ac-stretch">
+           <div class="wrapper flexbox column jc-space-b">
+                <div class="logo flexbox column jc-center ai-center flex-1 ">
+                    <img srcset= "./images/surface-logo-text-133.png 360w,
+                            ./images/surface-logo-text.png 480w,
+                            ./images/surface-logo-text.png 800w"
+                         sizes="(max-width: 133px) 280px,
+                                (max-width: 480px) 440px,
+                                    800px"
+                         src="./images/surface-logo-text.png"
+                         alt="Surface Logo"
+                    >
+                </div>
+                <div class="title flexbox column jc-center ai-center flex-4">
+                    <div class="title-wrap flexbox jc-center column">
+                        <h1 class="flex-1">BE RECRUITED</h1>
+                        <h1 lass="flex-1">PLAY COLLEGE SPORTS</h1>
+                    </div>
+                </div>
+
+
+                <div class="buttons flexbox m-column jc-center ai-center flexbox flex-1">
+                    <a href="#" class="button flexbox column  jc-center">
+                        <span>Download on the</span>
+                        <span>App store</span>
+                    </a>
+                    <a href="#" class="button flexbox column jc-center">
+                        <span>Get it on</span>
+                        <span >Google play</span>
+                    </a>
+                </div>
+            </div>
+
+
         </div>
-        <div class="title">
-            <h1>BE RECRUITED</h1>
-            <h1>PLAY COLLEGE SPORTS</h1>
-        </div>
-        <div class="buttons">
-            <a href="#" class="button">
-                <span>Download on the</span>
-                <span>App store</span>
-            </a>
-            <a href="#" class="button">
-                <span>Get it on</span>
-                <span>Google play</span>
-            </a>
-        </div>
-       </div>
-    </div>
     </header>
     <!--Athlets-->
     <section>
